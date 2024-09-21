@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flores demo</title>
+</head>
+<body>
+    <!-- Imagen de la cajita de regalo -->
+    <div class="gift-container">
+        <img class="gift" id="gift" src="cajita.webp" alt="Cajita de regalo" onclick="openGift()">
+    </div>
+
+    <!-- Mensaje de bienvenida -->
+    <div class="greetings">
+        <span>H</span>
+        <span>O</span>
+        <span>L</span>
+        <span>A</span>
+    </div>
+
+    <!-- Descripción antes de abrir la cajita -->
+    <div class="description">
+        <span>"Dentro de esta cajita se esconde algo tan especial como tú 🌟</span>
+    </div>
+
+    <!-- Botón para ir a otra página (si lo deseas mantener) -->
+    <div class="button">
+        <button>
+            <a href="FLORES.html">Haz clic aquí</a>
+        </button>
+    </div>
+
+    <!-- Contenedor de las flores que aparecerá después -->
+    <div class="flower-container" id="flower-container" style="display: none;">
+        <img class="flowers" src="flores.webp" alt="Flores amarillas">
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
